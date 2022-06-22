@@ -4,5 +4,5 @@ module.exports = function reverse (n) {
     if(n < 0){
       result.unshift('-');
     }
-    return +result.join('');
+    return Number(result.join(''));
 }
